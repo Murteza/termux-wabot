@@ -116,8 +116,8 @@ async function starts() {
 			const isCmd = body.startsWith(prefix)
 
 			mess = {
-				wait: '⌛ Sedang di Prosess ⌛',
-				success: '✔️ Berhasil ✔️',
+				wait: '⌛ Sedang di Prosess',
+				success: '✔️ Berhasil',
 				error: {
 					stick: '❌ Gagal, terjadi kesalahan saat mengkonversi gambar ke sticker ❌',
 					Iv: '❌ Link tidak valid ❌'
